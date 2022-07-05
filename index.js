@@ -24,7 +24,7 @@ for (i = 0; i < 10; i++) {
 	}
 }
 
-// muestra total asistencia y ausencias - si tiene mas de 5 muestra cartel de reprobado 
+// muestra total asistencia y ausencias - si tiene mas de 5 muestra cartel de "reprobado"
 for (alumno in alumnosTotales) {
 	let resultado = `${alumnosTotales[alumno][0]}:<br>
     ________Presentes: <b>${alumnosTotales[alumno][1]}</b> <br>
